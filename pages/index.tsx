@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Pic1 from "../components/assets/pic1.js"
 
 const Home: NextPage = () => {
   return (
@@ -67,55 +68,24 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <section id="about" className="p-5 d-flex align-items-center">
+      <section id="about" className="pt-5 px-4 d-flex align-items-center">
         <div className="container">
           <div className="row">
-            <div className="col-12 col-md-3 mt-5 mt-md-0 me-md-5">
+            <div className="col-12 col-md-3 me-md-5">
               <h1>
                 <p>MeComerse</p>
-                <span>Tiendas virtuales para todos</span>
+                <span>Tiendas virtuales para todos!</span>
               </h1>
             </div>
-            <div className="col-12 col-md-7 ">
-              <h2>Start Bootstrap has everything you need to get your</h2>
+            <div className="col-12 col-md-8 mt-2 mt-md-0 text-center">
+              <h2>Sin importar que tipo de producto vendes</h2>
               <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                voluptatem sequi nesciunt.Contrary to popular belief, Lorem
-                Ipsum is not simply random text. It has roots in a piece of
-                classical Latin literature from 45 BC, making it over 2000 years
-                old. Richard McClintock, a Latin professor at Hampden-Sydney
-                College in Virginia, looked up one of the more obscure Latin
-                words, consectetur, from a Lorem Ipsum passage, and going
-                through the cites of the word in classical literature,
-                discovered the undoubtable source. Lorem Ipsum comes from
-                sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"
-                (The Extremes of Good and Evil) by Cicero, written in 45 BC.
-                This book is a treatise on the theory of ethics, very popular
-                during the Renaissance. The first line of Lorem Ipsum, "Lorem
-                ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                Sube una foto, una breve descripcion, el precio y listo, tu <strong>ecomerse</strong> rapido y fácil a un muy bajo costo de subscripción!!
               </p>
-
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit.
-              </p>
-
-              <p>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum. Sed ut
-                perspiciatis unde omnis iste natus error sit
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit.
-              </p>
+              <button className="button-17 mb-3 ">Crear mi tienda ahora</button>
+            </div>
+            <div className="d-flex justify-content-center pt-3">
+              <div className="col-10 col-sm-6 col-md-5"><Pic1/></div>
             </div>
           </div>
         </div>

@@ -1,0 +1,34 @@
+#article1,
+#article2,
+#article3,
+#article4,
+#article5,
+#article6 {
+  animation: aparecer 1s infinite;
+}
+#article2 {
+  animation-delay: 0.1s;
+}
+#article3 {
+  animation-delay: 0.2s;
+}
+#article4 {
+  animation-delay: 0.3s;
+}
+#article5 {
+  animation-delay: 0.4s;
+}
+#article6 {
+  animation-delay: 0.5s;
+}
+@keyframes aparecer {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
