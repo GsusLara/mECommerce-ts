@@ -1,12 +1,13 @@
 @import "~bootstrap/scss/bootstrap";
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap');
 @import "../components/assets/assets.scss";
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
   &::-webkit-scrollbar {
     display: none;
   }
@@ -20,16 +21,7 @@ body {
 
 .header {
   background-attachment: fixed;
-  background: rgb(191, 220, 255);
-  background: linear-gradient(
-    0deg,
-    rgba(191, 220, 255, 1) 0%,
-    rgba(102, 167, 245, 1) 49%,
-    rgba(46, 142, 255, 0.8603816526610644) 88%
-  );
-
   height: 100vh;
-  color: #fff;
   transition: all 0.35s ease 0s;
   -webkit-transition: all 0.35s ease 0s;
   -moz-transition: all 0.35s ease 0s;
@@ -42,6 +34,9 @@ body {
       height: 5rem;
       margin-left: 55%;
     }
+  }
+  & h1{
+    color: #ff4c00;
   }
 }
 @media (min-width: 768px) {
@@ -57,7 +52,7 @@ body {
 /*-------- about css --------------*/
 #about {
   min-height: calc(100vh - 56px);
-  background-color: #e2e1e1;
+  // background-color: #e2e1e1;
   position: relative;
 }
 #about h1 {

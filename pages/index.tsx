@@ -54,8 +54,8 @@ const Home: NextPage = () => {
                 Tan fácil como el registro en una red social
               </span>
               <br />
-              <span className="fs-6 fw-light">
-                MeCommerse te ofrece la posibilidad de crear tu tienda en linea
+              <span className="fs-6 fw-light ">
+                meCommerse te ofrece la posibilidad de crear tu tienda en linea
                 de forma rapida y fácil, no requiere programación ni
                 conocimientos elevados en informática
               </span>
@@ -80,7 +80,7 @@ const Home: NextPage = () => {
             <div className="col-12 col-md-8 mt-2 mt-md-0 text-center">
               <h2>Sin importar que tipo de producto vendes</h2>
               <p>
-                Sube una foto, una breve descripcion, el precio y listo, tu <strong>ecomerse</strong> rapido y fácil a un muy bajo costo de subscripción!!
+                Sube una foto de cada producto con una breve descripcion, dale el mejor precio a tus clientes y listo, tu <strong>ecomerse</strong> rapido y fácil a un muy bajo costo de subscripción!!
               </p>
               <button className="button-17 mb-3 ">Crear mi tienda ahora</button>
             </div>
