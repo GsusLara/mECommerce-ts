@@ -4,7 +4,7 @@ import Pic1 from "../components/assets/pic1.js"
 const Home: NextPage = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      {/* <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div className="container">
           <a className="navbar-brand" href="#">
             Navbar
@@ -43,7 +43,7 @@ const Home: NextPage = () => {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> */}
 
       <div className="container-fluid header position-relative">
         <div className="row">
