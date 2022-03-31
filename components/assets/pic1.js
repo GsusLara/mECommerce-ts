@@ -21,7 +21,7 @@ function Icon() {
         ></path>
         <path
           id="Rectangle 340"
-          fill="#FF4C00"
+          fill="#FFB500"
           d="M644.725 0H0v27.39h644.725V0z"
         ></path>
         <path
@@ -203,7 +203,7 @@ function Icon() {
         ></path>
         <path
           id="Vector_7"
-          fill="#FF4C00"
+          fill="#FFB500"
           d="M682.096 439.809l-.636 1.477 21.297 9.169.635-1.476-21.296-9.17z"
         ></path>
         <path
@@ -238,12 +238,12 @@ function Icon() {
         ></path>
         <path
           id="Vector_14"
-          fill="#FF4C00"
+          fill="#FFB500"
           d="M402.096 547.809l-.636 1.477 21.297 9.169.635-1.476-21.296-9.17z"
         ></path>
         <path
           id="Vector_15"
-          fill="#FF4C00"
+          fill="#FFB500"
           d="M479.563 509.397l1.9 90.241 58.419 30.872 106.389-18.998 2.612-93.803-67.443-23.748-101.877 15.436z"
         ></path>
         <path

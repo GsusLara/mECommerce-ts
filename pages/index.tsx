@@ -4,7 +4,7 @@ import Pic1 from "../components/assets/pic1.js"
 const Home: NextPage = () => {
   return (
     <>
-      {/* <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <nav className="navbar navbar-expand-lg">
         <div className="container">
           <a className="navbar-brand" href="#">
             Navbar
@@ -43,27 +43,26 @@ const Home: NextPage = () => {
             </ul>
           </div>
         </div>
-      </nav> */}
+      </nav>
 
       <div className="container-fluid header position-relative">
         <div className="row">
-          <div className="col-12 col-md-8 col-lg-6 mx-auto px-3 ms-md-5 text-center position-absolute bottom-50">
+          <div className="col-12 col-md-8 col-lg-6 mx-auto px-3 ms-md-5 text-center position-absolute bottom-50 top-lg-50">
             <h1 className="fw-bold">¡Crea tu tienda en linea ahora!</h1>
-            <p>
-              <span className="fs-4 fw-normal">
+            <p className="mb-0">
+              <span className="fs-4 fw-bold">
                 Tan fácil como el registro en una red social
               </span>
               <br />
-              <span className="fs-6 fw-light ">
+              <span className="fs-6 fw-bold ">
                 meCommerse te ofrece la posibilidad de crear tu tienda en linea
                 de forma rapida y fácil, no requiere programación ni
                 conocimientos elevados en informática
               </span>
             </p>
           </div>
-          <div className="pict1">
-            <img src="/notif.png" alt="" className="notif d-block" />
-            <img className="img-fluid" src="/phones.png" alt="phones" />
+          <div className="pict1 col-9 col-md-3">
+            <img className="img-fluid" src="/mockup1.png" alt="phones" />
           </div>
         </div>
       </div>
@@ -73,7 +72,7 @@ const Home: NextPage = () => {
           <div className="row">
             <div className="col-12 col-md-3 me-md-5">
               <h1>
-                <p>MeComerse</p>
+                <p>meComerse</p>
                 <span>Tiendas virtuales para todos!</span>
               </h1>
             </div>
