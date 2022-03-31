@@ -1,94 +1,21 @@
 import type { NextPage } from "next";
-import Pic1 from "../components/assets/pic1.js"
+
+import Navbar from "../components/layouts/navbar";
+import Welcome from "../components/welcome";
+import About from "../components/about";
 
 const Home: NextPage = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg">
-        <div className="container">
-          <a className="navbar-brand" href="#">
-            Navbar
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <div className="container-fluid header position-relative">
-        <div className="row">
-          <div className="col-12 col-md-8 col-lg-6 mx-auto px-3 ms-md-5 text-center position-absolute bottom-50 top-lg-50">
-            <h1 className="fw-bold">¡Crea tu tienda en linea ahora!</h1>
-            <p className="mb-0">
-              <span className="fs-4 fw-bold">
-                Tan fácil como el registro en una red social
-              </span>
-              <br />
-              <span className="fs-6 fw-bold ">
-                meCommerse te ofrece la posibilidad de crear tu tienda en linea
-                de forma rapida y fácil, no requiere programación ni
-                conocimientos elevados en informática
-              </span>
-            </p>
-          </div>
-          <div className="pict1 col-9 col-md-3">
-            <img className="img-fluid" src="/mockup1.png" alt="phones" />
-          </div>
-        </div>
-      </div>
-
-      <section id="about" className="pt-5 px-4 d-flex align-items-center">
-        <div className="container">
-          <div className="row">
-            <div className="col-12 col-md-3 me-md-5">
-              <h1>
-                <p>meComerse</p>
-                <span>Tiendas virtuales para todos!</span>
-              </h1>
-            </div>
-            <div className="col-12 col-md-8 mt-2 mt-md-0 text-center">
-              <h2>Sin importar que tipo de producto vendes</h2>
-              <p>
-                Sube una foto de cada producto con una breve descripcion, dale el mejor precio a tus clientes y listo, tu <strong>ecomerse</strong> rapido y fácil a un muy bajo costo de subscripción!!
-              </p>
-              <button className="button-17 mb-3 ">Crear mi tienda ahora</button>
-            </div>
-            <div className="d-flex justify-content-center pt-3">
-              <div className="col-10 col-sm-6 col-md-5"><Pic1/></div>
-            </div>
-          </div>
-        </div>
+      <header>
+        <Navbar />
+      </header>
+      <section className="cabeza">
+          <Welcome />
+          <About/>
       </section>
+
+      
 
       {/* 
       <section id="how-it-works" className="parallax">
