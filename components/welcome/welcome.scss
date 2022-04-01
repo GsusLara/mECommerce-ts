@@ -1,0 +1,16 @@
+.top {
+   min-height: 100vh;
+    & .pict1 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+    & h1 {
+      color: #FFB500;
+    }
+  }
+  @media (min-width: 768px) {
+    .pict1 {
+      left: 50% !important;
+    }
+  }
