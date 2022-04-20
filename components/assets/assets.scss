@@ -4,7 +4,7 @@
 #article4,
 #article5,
 #article6 {
-  animation: aparecer 1s infinite;
+  animation: flotar 1s infinite;
 }
 #article2 {
   animation-delay: 0.1s;
@@ -21,7 +21,7 @@
 #article6 {
   animation-delay: 0.5s;
 }
-@keyframes aparecer {
+@keyframes flotar {
   0% {
     transform: translateY(0);
   }
