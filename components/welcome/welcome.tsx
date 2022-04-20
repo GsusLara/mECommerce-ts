@@ -21,7 +21,7 @@ export default function Welcome({}: Props) {
             </p>
           </div>
           <div className="col-6 col-lg-3 ">
-            <img className="img-fluid" src="/mockup1.png" alt="phones" />
+            <img className="img-fluid phone" src="/preset.gif" alt="phones" />
           </div>
         </div>
       </article>

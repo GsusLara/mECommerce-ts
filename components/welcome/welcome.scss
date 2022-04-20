@@ -9,8 +9,11 @@
       color: #FFB500;
     }
   }
-  @media (min-width: 768px) {
-    .pict1 {
-      left: 50% !important;
-    }
-  }
+.phone{
+  animation: flotar 2s infinite;
+}
+  // @media (min-width: 768px) {
+  //   .pict1 {
+  //     left: 50% !important;
+  //   }
+  // }
