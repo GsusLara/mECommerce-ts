@@ -6,7 +6,7 @@ export default function Navbar({}: Props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
   <div className="container">
-    <a className="navbar-brand" href="#">Navbar w/ text</a>
+    <a className="navbar-brand" href="#"> <img  className="logo m-0 p-0" src="/Logo.svg" alt="mecommerce" /> </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

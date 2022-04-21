@@ -5,7 +5,7 @@ type Props = {}
 
 export default function About({}: Props) {
   return (
-    <article id="about" className="pt-5 px-4 d-flex align-items-center">
+    <article className="pt-5 px-4 d-flex align-items-center about">
         <div className="container">
           <div className="row">
             <div className="col-12 col-md-3 me-md-5">
