@@ -16,8 +16,9 @@ const Home: NextPage = () => {
       </main>
       <section id="info">
         <About />
+        <Footer/>
       </section>
-      <Footer/>
+      
     </>
   );
 };
